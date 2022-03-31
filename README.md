@@ -1,4 +1,4 @@
-# [Secure Password](https://evil-coder-11212.github.io/Loan-Calculator/)
+# [Secure Password](https://evil-coder-11212.github.io/Secure-Password/)
 Secure Password is an web appilcation build with pure HTML, CSS, JS
 
 ## About Me
@@ -10,12 +10,16 @@ My GitHub: [Evil-Coder](https://github.com/Evil-Coder-11212)
 Copyright (c) 2022, Evil-Coder-11212<br/>
 
 ## Time to make?
-Stop Watch still in the process of making.
+Secure Password is still in the process of making.
 | Hours Per Day | Days Per Week |
 | ------------- | ------------- |
-|     2   |     3    |
+|     Coming Soon   |     Coming Soon    |
 
 ## Quotes for programmer
 ```
-"Programming isn't about what you know; it's about what you can figure out.”
+if(code != null){
+  code();
+}else{
+  playGame();
+}
 ```
