@@ -1,0 +1,100 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+:root {
+  --secondary-color: rgb(245, 245, 245);
+  --primary-color: rgb(26, 26, 26);
+  --font-family: Nunito, sans-serif;
+  --box-shadow: rgb(0, 0, 0) 1px 1px 3px 0px inset,
+    rgba(48, 48, 48, 0.5) -1px -1px 3px 1px inset;
+  --all-transition: transform ease-in-out 0.3s 0s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+}
+
+.main-content {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 600px;
+  height: 300px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px;
+  background-color: var(--primary-color);
+}
+
+.inputs-container {
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.inputs-container > input {
+  width: 250px;
+  height: 35px;
+  border: none;
+  box-shadow: var(--box-shadow);
+  border-radius: 5px;
+  padding-left: 15px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.container > p {
+  font-weight: bold;
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
+.container > ul {
+  width: 100%;
+  padding: 5px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container > ul > li {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.container > ul > li > a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+/* NTH CHILD */
+.inputs-container > input::placeholder {
+  color: var(--secondary-color);
+}
+
+/* Animations */
+.container > ul > li > a:hover {
+  color: red;
+}
+
+.container > ul > li > a:active {
+  text-decoration: underline;
+}
