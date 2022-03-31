@@ -1,0 +1,16 @@
+@media screen and (max-width: 610px) {
+  .container {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .inputs-container > input {
+    width: 95%;
+  }
+
+  .container > ul > li {
+    font-size: 14px;
+    text-align: center;
+  }
+}
